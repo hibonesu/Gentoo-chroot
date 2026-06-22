@@ -11,7 +11,7 @@ Tutorial ini buat lo yang gabut tapi pengen ngerasain penderitaan compile Gentoo
  * Module **BusyBox** sudah aktif di Magisk/KernelSU.
 
 ### 🛠️ Langkah Pemasangan
- 1. **Unduh Stage3 Tarball**
+ 1. **Unduh Stage3 varian aarch64, ngotaklah mana ada hp pake amd64 atau x64 Tarball**
    Download file gentoo.tar.xz atau .gz terbaru dari mirror resmi Gentoo.
 
  2. **Pindahkan dan Ekstraksi File**
