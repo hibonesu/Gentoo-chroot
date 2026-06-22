@@ -73,6 +73,8 @@ Tutorial ini buat lo yang gabut tapi pengen ngerasain penderitaan compile Gentoo
 
 
 ya gua tau ini hal paling bodoh dan aneh tapi gapapalah 
-gua menderita 20 jam gegara depency hell sama konflik python, tapi gapapa aku bahagia sama kerja sendiri
+gua menderita 20 jam gegara depency hell sama konflik python, tapi gapapa aku bahagia sama kerja sendiri dan berhasil mengatasi masalah sendiri. 
+
+jangan begadang ya jaga kesehatan lagian buat orang yg emang udah bosen hidup, terserah deh. gada yg ngatur hidup
 
 kalo mau ngerti search aja droidmaster di browser nah di situ kalo mau paham, sorry gua root only hp gua android 10
