@@ -67,6 +67,10 @@ Tutorial ini buat lo yang gabut tapi pengen ngerasain penderitaan compile Gentoo
    ```
    Kalau udah, ketik exit lalu masuk lagi lewat ./gentoo.sh. *Voila!* Selesai.
 
+   ini tampilan 3 hari di siksa di pecut pantat gua sakit
+
+  !https://github.com/hibonesu/Gentoo-chroot/blob/main/Screenshot_2026-06-22-12-24-22-65.jpg
+
 ya gua tau ini hal paling bodoh dan aneh tapi gapapalah 
 gua menderita 20 jam gegara depency hell sama konflik python
 
