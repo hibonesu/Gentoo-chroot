@@ -69,7 +69,7 @@ Tutorial ini buat lo yang gabut tapi pengen ngerasain penderitaan compile Gentoo
 
  ini tampilan 3 hari di siksa di pecut pantat gua sakit
 
-![gentoo-chroot](Record_2026-06-23-09-59-38.mp4)
+![gentoo-chroot](Screenshot_2026-06-23-10-10-59-36.jpg)
 
 
 ya gua tau ini hal paling bodoh dan aneh tapi gapapalah 
