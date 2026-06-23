@@ -64,6 +64,9 @@ groupadd wheel
 
 usermod -G 3003,aid_sdcard_rw,aid_media_rw,aid_everybody -a root
 
+useradd -m -u 10446 -g users -G wheel,audio,video,storage,aid_inet,aid_sdcard_rw,aid_media_rw,aid_everybody -s /bin/bash hibonesu
+
+
 groupmod -g 10446 hibonesu 2>/dev/null
 
 usermod -g aid_net portage
