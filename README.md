@@ -54,15 +54,19 @@ Tutorial ini buat lo yang gabut tapi pengen ngerasain penderitaan compile Gentoo
    Setelah masuk ke lingkungan Gentoo, jalankan perintah ini supaya user dan Portage dapet akses internet serta storage di Android:
    ```bash
    groupadd -g 3003 aid_inet
-   groupadd -g 3004 aid_net_raw
-   groupadd -g 1003 aid_graphics
-   usermod -G 3003 -a root
-   
-   groupadd storage
-   groupadd wheel
-   useradd -m -g users -G wheel,audio,video,storage,aid_inet -s /bin/bash root
-   
-   usermod -g aid_net portage
+groupadd -g 3004 aid_net_raw
+groupadd -g 1003 aid_graphics
+groupadd -g 1015 aid_sdcard_rw
+groupadd -g 1023 aid_media_rw
+groupadd -g 9997 aid_everybody  # <--- Grup 'everybody' Android 10 Anda
+groupadd storage
+groupadd wheel
+
+usermod -G 3003,aid_sdcard_rw,aid_media_rw,aid_everybody -a root
+
+groupmod -g 10446 hibonesu 2>/dev/null
+
+usermod -g aid_net portage
    
    ```
    Kalau udah, ketik exit lalu masuk lagi lewat ./gentoo.sh. *Voila!* Selesai.
