@@ -27,7 +27,6 @@ safe_mount "proc" proc "$mnt/proc" ""
 safe_mount "sysfs" sysfs "$mnt/sys" ""
 safe_mount "devpts" devpts "$mnt/dev/pts" ""
 safe_mount "bind" /sdcard "$mnt/media/storage"
-safe_mount "bind" /storage/4572-1409 "$mnt/media/sdcard"
 safe_mount "tmpfs" tmpfs "$mnt/var/cache" ""
 safe_mount "tmpfs" tmpfs "$mnt/dev/shm" "-o size=256M"
 
@@ -36,7 +35,6 @@ chroot "$mnt" /bin/su - root
 
 # Proses Pembersihan (Unmount otomatis setelah kamu ketik 'exit')
 busybox umount -l "$mnt/var/cache" 2>/dev/null
-busybox umount -l "$mnt/media/sdcard" 2>/dev/null
 busybox umount -l "$mnt/media/storage" 2>/dev/null
 busybox umount -l "$mnt/dev/pts" 2>/dev/null
 busybox umount -l "$mnt/sys" 2>/dev/null
